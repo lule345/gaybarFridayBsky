@@ -5,3 +5,4 @@ RUN pip install atproto
 RUN pip install dotenv
 COPY src ./src
 EXPOSE 443 
+CMD ["python main.py"]
