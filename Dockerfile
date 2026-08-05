@@ -3,6 +3,6 @@ WORKDIR /gaybar
 
 RUN pip install atproto
 RUN pip install dotenv
-COPY src ./src
+COPY src ./
 EXPOSE 443 
-CMD ["python main.py"]
+CMD ["python", "./main.py"]
