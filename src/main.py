@@ -9,8 +9,9 @@ def init():
         sys.exit()
     load_dotenv()
     key = os.getenv('APIKEY')
+    user = os.getenv('USER')
     client = Client()
-    client.login('admin@malingen.xyz', f'{key}')
+    client.login(f'{user}', f'{key}')
     with open('gaybar.mp4', 'rb') as f:
         vid_data = f.read()
         aspect = {'height': 360, 'width': 480}
