@@ -23,3 +23,8 @@ USER=[USER] # [USER] should be the email linked to your account
 8. test/run the script via ``python main.py``
 
 from here on, you can decide how to schedule the script yourself. i put this out here in order to open source the project, as well as a means to practice self-hosting.
+
+Attributions:
+- https://www.youtube.com/watch?v=yq0_ApTwNH4, "Lain at the Gay Bar" by purplepolecat
+- https://pypi.org/project/atproto/, ATProto Python Library
+- [Hack Club!](https://hackclub.com/)
