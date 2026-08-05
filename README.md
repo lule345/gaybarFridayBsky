@@ -1,7 +1,8 @@
 # gaybarFridayBsky
 automatic bot on bluesky that posts lain at the gaybar every friday (UTC-4)
 
-![](./src/gaybar.mp4)
+https://github.com/user-attachments/assets/71784fb9-ceaf-4bf5-94c3-d2c35bdd6abf
+
 
 to note: this setup is meant for self-hosting/hosting on services. i am too lazy to bother with docker files, so you get to `git pull` instead!!
 
