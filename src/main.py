@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from httpx import Timeout
 
 def init():
-    if not os.path.exists('.env'):
+    if not os.path.exists('./.env'):
         print('No API/env File found!')
         sys.exit()
     load_dotenv()
